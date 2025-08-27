@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-width: 100vh;
+    min-height: 100vh;
 }
 p {
     font-size: 15px;
@@ -108,7 +108,7 @@ p {
 }
 @media (min-width: 600px) {
     body {
-        min-width: 0;
+        min-height: 0;
     }
     .cards {
     display: flex;
@@ -144,7 +144,7 @@ p {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
-    .cards .Calculatore {
+    .cards .Calculator {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
@@ -172,4 +172,5 @@ p {
         grid-column: 3 / 4;
         grid-row: 2 / 4;
     }
+
 }
